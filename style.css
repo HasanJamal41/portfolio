@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+header {
+    margin-bottom: 30px;
+}
+
 .profile-img {
     width: 150px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
@@ -23,7 +27,16 @@ h1, h2 {
     margin: 10px 0;
 }
 
-.skills {
+h3 {
     margin-top: 30px;
+    border-bottom: 2px solid #fff; /* Underline for section headings */
+    padding-bottom: 5px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for sections */
 }
 
